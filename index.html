@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css
+    "
+    />
+    <style>
+      body {
+        margin: 0;
+      }
+      :root {
+        width: 100%;
+      }
+
+      nav > img {
+        width: 700px;
+      }
+      nav {
+        width: (width);
+      }
+      .icon-white {
+        color: white;
+      }
+      .icon-secondary {
+        color: grey;
+      }
+      .font-size {
+        font-size: 15px;
+      }
+      .button-size {
+        width: 60px;
+      }
+
+      .genres-margin {
+        margin-left: 50px;
+      }
+      .h1-margin {
+        width: 15%;
+      }
+      .element-hover:hover {
+        width: 500px;
+      }
+    </style>
+  </head>
+  <body class="bg-black">
+    <nav class="navbar container-fluid navbar-expand-lg">
+      <div class="container-fluid">
+        <div class="row bg-black w-100">
+          <div class="d-flex align-items-center">
+            <a href="#top">
+              <img
+                src="./assets/netflix_logo.png"
+                alt=""
+                style="width: 150px"
+                class="mx-auto"
+              />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapsibleNavbar"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="d-flex justify-content-between collapse navbar-collapse"
+            >
+              <div
+                class="collapse navbar-collapse col-lg-7 col-xl-10 col-xxl-5"
+                id="collapsibleNavbar"
+              >
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="link-secondary text-decoration-none fs-5" href="#"
+                      >Home</a
+                    >
+                  </li>
+                  <a
+                    class="ms-3 link-secondary text-decoration-none fs-5"
+                    href="#"
+                    >TV Shows</a
+                  >
+                  <a
+                    class="ms-3 link-secondary text-decoration-none fs-5"
+                    href="#"
+                    >Movies</a
+                  >
+                  <a
+                    class="ms-3 link-secondary text-decoration-none fs-5"
+                    href="#"
+                    >Recently added</a
+                  >
+                  <a
+                    class="ms-3 link-secondary text-decoration-none fs-5"
+                    href="#"
+                    >My List</a
+                  >
+                </ul>
+              </div>
+              <div
+                class="w-100 me-3 d-flex justify-content-end align-items-center justify-content-end"
+              >
+                <i class="fas fa-search icon-white me-3"></i>
+                <a
+                  class="me-3 link-secondary text-decoration-none"
+                  text-decoration-none
+                  href="#"
+                  >KIDS</a
+                >
+                <i class="fas fa-bell icon-white me-3"></i>
+                <a href="./index2.html"
+                  ><img
+                    src="./assets/kids_icon.png"
+                    style="width: 50px"
+                    alt=""
+                    class="element-hover"
+                  />
+                </a>
+                <i class="fas fa-sort-down icon-white ms-2"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <header class="container-fluid bg-black d-flex">
+      <div class="row w-100">
+        <div class="col-xxl-12 d-flex align-items-center">
+          <h1 class="text-white h1-margin">Tv Shows</h1>
+          <div class="d-flex justify-content-between w-100">
+            <div class="dropdown">
+              <button
+                class="btn btn-black dropdown-toggle border-2 border-secondary text-white p-2 genres-margin rounded-0"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Genres
+              </button>
+            </div>
+            <div class="row">
+              <div class="d-flex justify-content-end">
+                <button class="bg-black icon-secondary p-2 button-size">
+                  <i class="fas fa-bars"></i>
+                </button>
+                <button class="bg-black icon-secondary p-2 button-size">
+                  <i class="fas fa-dice-four"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="container-fluid mt-3">
+      <h2 class="text-white fs-4">Trending Now</h2>
+      <div class="row d-flex justify-content-between">
+        <div class="col-sm-6 col-md-4 col-lg-4 col-xl-2 col-xxl-2 mt-3">
+          <img src="./assets/media/media0.webp" alt="" class="img-fluid" />
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-4 col-xl-2 col-xxl-2 mt-3">
+          <img src="./assets/media/media1.jpg" alt="" class="img-fluid" />
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-4 col-xl-2 col-xxl-2 mt-3">
+          <img src="./assets/media/media2.webp" alt="" class="img-fluid" />
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-4 col-xl-2 col-xxl-2 mt-3">
+          <img src="./assets/media/media3.webp" alt="" class="img-fluid" />
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-4 col-xl-2 col-xxl-2 mt-3">
+          <img src="./assets/media/media4.jpg" alt="" class="img-fluid" />
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-4 col-xl-2 col-xxl-2 mt-3">
+          <img src="./assets/media/media5.webp" alt="" class="img-fluid" />
+        </div>
+      </div>
+      <h2 class="text-white fs-4 mt-3">Watch It Again</h2>
+      <div class="row">
+        <div class="col-sm-6 col-md-4 col-lg-4 col-xl-2 col-xxl-2 mt-3">
+          <img src="./assets/media/media6.jpg" alt="" class="img-fluid" />
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-4 col-xl-2 col-xxl-2 mt-3">
+          <img src="./assets/media/media7.webp" alt="" class="img-fluid" />
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-4 col-xl-2 col-xxl-2 mt-3">
+          <img src="./assets/media/media8.webp" alt="" class="img-fluid" />
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-4 col-xl-2 col-xxl-2 mt-3">
+          <img src="./assets/media/media9.jpg" alt="" class="img-fluid" />
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-4 col-xl-2 col-xxl-2 mt-3">
+          <img src="./assets/media/media10.jpg" alt="" class="img-fluid" />
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-4 col-xl-2 col-xxl-2 mt-3">
+          <img src="./assets/media/media11.jpg" alt="" class="img-fluid" />
+        </div>
+      </div>
+      <h2 class="text-white fs-4 mt-3">New Releases</h2>
+      <div class="row">
+        <div class="col-sm-6 col-md-4 col-lg-4 col-xl-2 col-xxl-2 mt-3">
+          <img src="./assets/media/media12.jpg" alt="" class="img-fluid" />
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-4 col-xl-2 col-xxl-2 mt-3">
+          <img src="./assets/media/media13.jpg" alt="" class="img-fluid" />
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-4 col-xl-2 col-xxl-2 mt-3">
+          <img src="./assets/media/media14.webp" alt="" class="img-fluid" />
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-4 col-xl-2 col-xxl-2 mt-3">
+          <img src="./assets/media/media15.jpg" alt="" class="img-fluid" />
+        </div>
+        <div class="col-sm-6 col-md-4 -col-lg-4 col-xl-2 col-xxl-2 mt-3">
+          <img src="./assets/media/media16.webp" alt="" class="img-fluid" />
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-4 col-xl-2 col-xxl-2 mt-3">
+          <img src="./assets/media/media17.jpg" alt="" class="img-fluid" />
+        </div>
+      </div>
+    </main>
+    <footer class="mt-5 d-flex justify-content-around">
+      <div style="width: 60%">
+        <div class="row d-flex">
+          <div col-xxl-1>
+            <i class="fab fa-facebook-square fs-2"></i>
+            <i class="fab fa-instagram fs-2 ms-2"></i>
+            <i class="fab fa-twitter fs-2 ms-2"></i>
+            <i class="fab fa-youtube fs-2 ms-2"></i>
+            <div class="row">
+              <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
+                <a
+                  class="text-decoration-none link-secondary font-size"
+                  href="#"
+                  >Audio and Subtitles</a
+                >
+              </div>
+              <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
+                <a
+                  class="text-decoration-none link-secondary font-size"
+                  href="#"
+                  >Audio Description</a
+                >
+              </div>
+              <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
+                <a
+                  class="text-decoration-none link-secondary font-size"
+                  href="#"
+                  >Help Center</a
+                >
+              </div>
+              <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
+                <a
+                  class="text-decoration-none link-secondary font-size"
+                  href="#"
+                  >Gift Cards</a
+                >
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
+                <a
+                  class="text-decoration-none link-secondary font-size"
+                  href="#"
+                  >Media Center</a
+                >
+              </div>
+              <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
+                <a
+                  class="text-decoration-none link-secondary font-size"
+                  href="#"
+                  >Investor Relations</a
+                >
+              </div>
+              <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
+                <a
+                  class="text-decoration-none link-secondary font-size"
+                  href="#"
+                  >Jobs</a
+                >
+              </div>
+              <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
+                <a
+                  class="text-decoration-none link-secondary font-size"
+                  href="#"
+                  >Terms of use</a
+                >
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
+                <a
+                  class="text-decoration-none link-secondary font-size"
+                  href="#"
+                  >Privacy</a
+                >
+              </div>
+              <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
+                <a
+                  class="text-decoration-none link-secondary font-size"
+                  href="#"
+                  >Legal Notices</a
+                >
+              </div>
+              <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
+                <a
+                  class="text-decoration-none link-secondary font-size"
+                  href="#"
+                  >Cookie preferences</a
+                >
+              </div>
+              <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
+                <a
+                  class="text-decoration-none link-secondary font-size"
+                  href="#"
+                  >Corporate Information</a
+                >
+              </div>
+              <div class="row">
+                <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-12">
+                  <a
+                    class="text-decoration-none link-secondary font-size"
+                    href="#"
+                  >
+                    Contact Us
+                  </a>
+                </div>
+                <div class="row">
+                  <div class="col-xxl-12">
+                    <button
+                      class="bg-transparent text-secondary border-2 border-secondary fs-5 p-2 mt-4 rounded-0"
+                    >
+                      Service Code
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <h5 class="mt-4">
+            &copy; 1997-2019 Netflix, Inc. {i-0d00fcda2fdf9c0de}
+          </h5>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
